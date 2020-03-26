@@ -1,6 +1,7 @@
 .vscode
 *.pyc
 venv
+.idea
 */target/*
 */project/target/*
 */project/project/*
