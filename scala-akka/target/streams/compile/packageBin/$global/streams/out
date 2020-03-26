@@ -1,0 +1,35 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\account-service-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\rest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\rest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalatraBootstrap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\ScalatraBootstrap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\model\Transaction$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\model\Transaction$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\model\Account$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\model\Account$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\rest\AccountServiceSwagger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\rest\AccountServiceSwagger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\rest\v1\AccountController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\rest\v1\AccountController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\rest\v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\rest\v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\rest\ResourcesApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\rest\ResourcesApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\model\Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\model\Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\andrey\justo\account\model\Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Andrey Victor Justo\eclipse-workspace\account-service\target\scala-2.12\sbt-1.0\classes\org\andrey\justo\account\model\Account.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Andrey Victor Justo\eclipse-workspace\account-service\src\main\scala\org\andrey\justo\account\rest\v1\AccountController.scala:25:30: Int.type does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    Account(params("id"), Int(params("id")))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
