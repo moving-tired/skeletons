@@ -1,11 +1,10 @@
 import javax.servlet.ServletContext
-import org.andrey.justo.account.rest.{MessagesServiceSwagger, ResourcesApp}
 import org.moving.tired.messages.rest.{MessagesServiceSwagger, ResourcesApp}
 import org.moving.tired.messages.rest.v1.MessageController
 import org.scalatra.LifeCycle
 
-class ScalatraBootstrap extends LifeCycle {
-  implicit val swagger = new MessagesServiceSwagger
+class AkkaBootstrap extends App {
+  implicit val swagger: MessagesServiceSwagger = new MessagesServiceSwagger
 
   override def init(context: ServletContext) {
     try {

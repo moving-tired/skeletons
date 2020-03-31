@@ -2,40 +2,37 @@ ScriptedPlugin.globalSettings
 
 resolvers += Classpaths.typesafeReleases
 
-name := "account-service"
+name := "message-service"
 
-version := "0.1"
+version := "1.0.0"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.13.1"
 
-val scalatraVersion = "2.6.+"
+lazy val akkaVersion = "2.6.4"
+lazy val akkaHttpVersion = "10.1.11"
+lazy val slick = "3.3.2"
+lazy val scalaTest = "3.1.1"
+lazy val json4s = "3.6.7"
 
 lazy val root = (project in file("."))
   .enablePlugins(SbtPlugin)
 
 libraryDependencies ++= Seq(
+  // Akka dependencies
+  "com.typesafe.akka" %% "akka-actor" % akkaVersion,
+  "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
+  "org.json4s" %% "json4s-native" % json4s,
+  "org.json4s" %% "json4s-jackson" % json4s,
+  "de.heikoseeberger" %% "akka-http-json4s" % "1.31.0",
+  "ch.qos.logback" % "logback-classic" % "1.2.3",
 
-  // Scalatra dependencies
-  "org.scalatra" %% "scalatra" % scalatraVersion,
-  "org.scalatra" %% "scalatra-swagger" % scalatraVersion,
-  "org.scalatra" %% "scalatra-json" % scalatraVersion,
-  "org.scalatra" %% "scalatra-scalate" % scalatraVersion,
-  "org.json4s" %% "json4s-native" % "3.6.3",
-
-  // Jetty dependencies
-  "ch.qos.logback" % "logback-classic" % "1.2.3" % "runtime",
-  "org.eclipse.jetty" % "jetty-webapp" % "9.4.9.v20180320" % "container",
-  "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
+  //"javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
 
   // Database dependencies
-  "com.typesafe.slick" %% "slick" % "3.3.1",
-  "postgresql" % "postgresql" % "9.1-901.jdbc4",
-  "com.typesafe.slick" %% "slick-hikaricp" % "3.3.1",
-  "com.zaxxer" % "HikariCP" % "3.3.1",
+  "com.typesafe.slick" %% "slick" % slick,
+  "org.postgresql" % "postgresql" % "42.2.11",
+  "com.typesafe.slick" %% "slick-hikaricp" % slick,
 
   // Test dependencies
-  "org.scalatra" %% "scalatra-specs2" % scalatraVersion % "test",
-  "org.scalatra" %% "scalatra-scalatest" % scalatraVersion % "test"
+  "org.scalatest" %% "scalatest" % scalaTest % "test"
 )
-
-enablePlugins(ScalatraPlugin)
