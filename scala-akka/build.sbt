@@ -14,9 +14,6 @@ lazy val slick = "3.3.2"
 lazy val scalaTest = "3.1.1"
 lazy val json4s = "3.6.7"
 
-lazy val root = (project in file("."))
-  .enablePlugins(SbtPlugin)
-
 libraryDependencies ++= Seq(
   // Akka dependencies
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
