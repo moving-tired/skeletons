@@ -4,6 +4,7 @@ import org.moving.tired.messages.dao.MessageDAO
 import org.moving.tired.messages.model.Message
 
 import scala.concurrent.Future
+import scala.util.{Failure, Success}
 
 trait MessageGetter {
 
@@ -11,8 +12,11 @@ trait MessageGetter {
 
   def dao: MessageDAO
 
-  def get(name: String, space: String, locale: String): Future[Option[Message]] = {
-    dao.find(name, space, locale)
+  def get(name: String, space: String, locale: String): Unit = {
+    dao.find(name, space, locale).onComplete {
+      case Success(message) => message.fold(complete("No Message found", 404))(m => complete(m.translated, 200))
+      case Failure(_) => complete("Couldn't get messages")
+    }
   }
 
 }
