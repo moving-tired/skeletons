@@ -5,7 +5,6 @@ import akka.http.scaladsl.marshalling.ToResponseMarshallable
 import akka.http.scaladsl.model.StatusCode
 import akka.http.scaladsl.server.{RequestContext, RouteResult}
 import akka.http.scaladsl.server.RouteResult.Complete
-import com.fasterxml.jackson.databind.ser.Serializers
 
 import scala.concurrent.{ExecutionContext, Promise}
 import scala.util.{Success, Try}

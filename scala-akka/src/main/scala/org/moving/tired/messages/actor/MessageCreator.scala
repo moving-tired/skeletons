@@ -1,5 +1,6 @@
 package org.moving.tired.messages.actor
 
+import org.moving.tired.messages.actor.MessageManager.MessageEntry
 import org.moving.tired.messages.dao.MessageDAO
 import org.moving.tired.messages.model.Message
 
@@ -12,8 +13,8 @@ trait MessageCreator {
 
   def dao: MessageDAO
 
-  def add(name: String, space: String, locale: String, text: String): Unit = {
-    dao.insert(Message(key = name, space = space, locale = locale, translated = text)).onComplete {
+  def add(entry: MessageEntry): Unit = {
+    dao.insert(Message(key = entry.key, space = entry.space, locale = entry.locale, translated = entry.text)).onComplete {
       case Success(rows) => if (rows > 0) complete("", 201) else complete("Failed to insert message")
       case _ => complete("Failed to insert message")
     }

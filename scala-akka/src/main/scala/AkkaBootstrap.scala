@@ -10,7 +10,7 @@ import scala.concurrent.ExecutionContext
 import slick.jdbc.PostgresProfile.api._
 
 object AkkaBootstrap extends App {
-  
+
   val config: Config = ConfigFactory.load()
   val actorSystemName = config.getString("akka.system.name")
 

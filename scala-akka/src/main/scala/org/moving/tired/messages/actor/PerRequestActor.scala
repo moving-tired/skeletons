@@ -1,8 +1,7 @@
 package org.moving.tired.messages.actor
 
 import akka.actor.{Actor, ActorLogging}
-import com.fasterxml.jackson.databind.ser.Serializers
-import org.moving.tired.messages.rest.routing.PerRequest
+import org.moving.tired.messages.rest.routing.{PerRequest, Serializers}
 
 import scala.concurrent.ExecutionContextExecutor
 import scala.concurrent.duration._
